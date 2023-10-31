@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hot-site-supremo';
+
+  public gotoPage() {
+    window.open('https://delivery.yooga.app/supremo',"_blank");
+  }
 }
