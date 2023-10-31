@@ -31,6 +31,7 @@
     z-index: 3;
     color: white;
     width: 100vw;
+    top: 0;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -40,13 +41,17 @@
     justify-content: center;
     svg {
         color: yellow;
+        margin-top: -20px;
+        max-height: 20vh;
     }
     p {
         text-align: center;
         font-family: 'Big Shoulders Inline Display';
         font-weight: 900;
-        font-size: 5.5em;
-        padding: 5%;
+        font-size: 45px;
+        padding: 2%;
+        left: 0;
+        margin-top: 5px;
         padding-top: 0vh;
         padding-bottom: 0vh;
         color: yellow;
@@ -57,9 +62,11 @@
         color: white;
         font-family: 'Roboto', sans-serif;
         text-align: center;
-        font-size: 2.5em;
+        font-size: 20px;
         margin-top: 0!Important;
-        padding: 5%;
+        padding: 3%;
+        margin: 0;
+
         b {
             color: yellow;
         }
@@ -67,6 +74,7 @@
 }
 
 button {
+    margin-top: 30px;
 	box-shadow:inset 0px 1px 0px 0px #fff6af;
 	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
 	background-color:#ffec64;
@@ -76,7 +84,7 @@ button {
 	cursor:pointer;
 	color:#000000;
 	font-family:Arial;
-	font-size:5em;
+	font-size:24px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
